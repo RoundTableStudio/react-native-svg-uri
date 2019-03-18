@@ -99,7 +99,7 @@ class SvgUri extends Component{
     }
   }
 
-  UNSAFE_componentWillMount() {
+  componentDidMount() {
     this.isComponentMounted = true;
   }
 
